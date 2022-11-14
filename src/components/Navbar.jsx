@@ -8,7 +8,7 @@ const Navbar = () => {
   const handleNav = () => setNav(!nav);
 
   return (
-    <div className="w-screen navbar h-[80px] bg-zinc-200 fixed drop-shadow-sm shadow-md opacity-[0.8] shadow-black">
+    <div className="w-screen z-10 navbar h-[80px] bg-zinc-200 fixed drop-shadow-sm shadow-md opacity-[0.8] shadow-black">
       <div className="px-3 flex justify-between items-center h-full w-full">
         <div className="flex items-center">
           <h2 className="brand font-bold text-3xl sm:4xl mr-4">

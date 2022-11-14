@@ -50,6 +50,10 @@
     top: 20%;
   }
 
+  .navbar {
+    opacity: 0.96;
+  }
+
   .home-card::before {
     content: "";
     width: 100% !important;
