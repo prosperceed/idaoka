@@ -1,3 +1,57 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  .list-item {
+    @apply p-4 text-[1.2rem];
+  }
+  body {
+    position: relative;
+    background-image: linear-gradient(
+      to left,
+      #051937,
+      #002668,
+      #172f98,
+      #4e2ec5,
+      #8c12eb
+    );
+  }
+}
+.register {
+  height: 100vh;
+}
+.circle-1 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-image: linear-gradient(to right, #8c12eb, #ada6a6);
+  border-radius: 50%;
+  z-index: -10;
+  top: 18%;
+  left: 60%;
+}
+
+.home-card {
+  position: relative;
+}
+
+.home-card::before {
+  content: "";
+  width: 100% !important;
+  height: 70px;
+  position: absolute;
+  top: 85%;
+  left: 0%;
+  background: #172f98;
+  padding-top: 3rem;
+  transform: skewY(7deg);
+}
+
+@media screen and (max-width: 600px) {
+  .register {
+  }
+  .circle-1 {
+    top: 20%;
+  }
+}
