@@ -12,11 +12,12 @@ const Hero = () => {
           <h2 className="text-white text-4xl text-center">Chat Fast</h2>
         </div>
       </div>
-      <div className="home-card border border-white rounded-md w-[30rem] mx-auto bg-white opacity-[0.5]">
+      <div className="home-card relative border border-white rounded-md w-[29.7rem] mx-auto bg-white opacity-[0.5] drop-shadow-2xl shadow-xl shadow-black">
         <div className="px-4 py-10">
           <h2 className="text-purple-600 text-3xl text-center mb-2">
             About Us
           </h2>
+
           <div className="mt-2">
             <p className="text-base py-7">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas,

@@ -32,25 +32,19 @@
   left: 60%;
 }
 
-.home-card {
-  position: relative;
-}
-
 .home-card::before {
   content: "";
   width: 100% !important;
   height: 70px;
   position: absolute;
-  top: 85%;
-  left: 0%;
-  background: #172f98;
+  top: 85.7%;
+  left: -0.08%;
+  background-image: linear-gradient(to right, #172f98, #8c12eb);
   padding-top: 3rem;
   transform: skewY(7deg);
 }
 
 @media screen and (max-width: 600px) {
-  .register {
-  }
   .circle-1 {
     top: 20%;
   }
