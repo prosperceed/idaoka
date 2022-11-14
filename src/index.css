@@ -34,18 +34,31 @@
 
 .home-card::before {
   content: "";
-  width: 100% !important;
-  height: 70px;
+  width: 100%;
+  height: 60px;
   position: absolute;
-  top: 85.7%;
-  left: -0.08%;
+  top: 86%;
+  left: 0.099%;
   background-image: linear-gradient(to right, #172f98, #8c12eb);
   padding-top: 3rem;
-  transform: skewY(7deg);
+  transform: skewY(-1deg);
+  -webkit-transform: skewY(-1deg);
 }
 
 @media screen and (max-width: 600px) {
   .circle-1 {
     top: 20%;
+  }
+
+  .home-card::before {
+    content: "";
+    width: 100% !important;
+    height: 70px;
+    position: absolute;
+    top: 85.7%;
+    left: -0.08%;
+    background-image: linear-gradient(to right, #172f98, #8c12eb);
+    padding-top: 3rem;
+    transform: skewY(7deg);
   }
 }

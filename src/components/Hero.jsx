@@ -1,5 +1,6 @@
 import React from "react";
 import chat from "../assets/img/Begin-chat.png";
+import social from "../assets/img/social.png";
 
 const Hero = () => {
   return (
@@ -18,33 +19,19 @@ const Hero = () => {
         <div className="img-container pt-10">
           <img className="w-full" src={chat} alt="" />
         </div>
+        <div className=" py-3">
+          <h3 className="text-center text-3xl text-white">
+            Connect with People
+          </h3>
+        </div>
+        <div className="container flex justify-center items-center">
+          <img className="w-[8rem]  py-2" src={social} alt="" />
+        </div>
       </div>
 
-      {/* <div className="py-4 grid  items-center md:grid-cols-2">
-        <div className="head-container -z-10   drop-shadow-2xl text-center px-4">
-          <div className="img-container flex justify-center px-5">
-                        <img className="w-full" src={chat} alt="" />
-
-          </div>
-        </div>
-
-        <div className="head-container text-center px-4">
-          <h3 className="text-center text-2xl">Smooth, Relible Message</h3>
-          <p className="text-center">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non
-            commodi ut cupiditate? Hic esse excepturi eligendi recusandae
-            consectetur id labore!
-          </p>
-          <div className="img-container px-5">
-                        <img className="w-full" src={chat} alt="" />
-
-          </div>
-        </div>
-      </div> */}
-
-      <div className="home-card relative -z-10 border border-white rounded-md w-[29.7rem] mx-auto bg-white opacity-[0.5] drop-shadow-2xl shadow-xl shadow-black">
-        <div className="px-4 py-10">
-          <h2 className="text-purple-600 text-3xl text-center mb-2">
+      <div className="home-card relative -z-10 border border-white rounded-md w-[29.7rem] md:w-[80%] mx-auto bg-white opacity-[0.5] drop-shadow-2xl shadow-xl shadow-black">
+        <div className="px-4 py-10 md:py-20">
+          <h2 className="text-purple-600 text-3xl px-4 text-center -mb-4 -mt-6">
             About Us
           </h2>
 
